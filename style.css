@@ -1,0 +1,166 @@
+@import url("https://fonts.google.com/specimen/Karla");
+
+body{
+    background-color: hsl(204, 43%, 93%)
+}
+
+.container{
+ margin-top: 180px;
+ margin-left: 530px;
+ padding: 3rem;
+ background-color: #fff;
+ width: fit-content;
+ border-top-left-radius: 1rem;
+ border-top-right-radius: 1rem;
+ box-shadow: 6px 5px 100px hsl(218, 22%, 67%);;
+}
+.container h1{
+ text-align:start;
+ font-family: 'Karla',sans-serif;
+ color:  hsl(179, 62%, 43%);
+ font-weight: 700;
+}
+.container h2{
+    font-family: 'Karla',sans-serif;
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+.container p{
+    font-family: 'Karla',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:  hsl(218, 22%, 67%);
+}
+
+/* columns section */
+ .cols{
+    display: flex;
+    gap:3rem;
+    margin-left: 561px;
+    margin-top: -20px;
+}
+ .cols .col1{
+    background-color: hsl(179, 62%, 43%);
+    padding: 3rem;
+    height: 170px;
+    margin-left: -31.3px;
+    border-bottom-left-radius: 1rem;
+ 
+}
+.cols .col1 h1{
+    margin-top: -10px;
+    color:#fff;
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.cols .col1 h2{
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+    color:#fff;
+    font-size: 30px;
+}
+
+.cols .col1 h2 span{
+    font-family: 'Karla',sans-serif;
+    color:hsl(204, 43%, 90%);
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.cols .col1 p{
+    margin-top: -13px;
+    font-family: 'Karla',sans-serif;
+    color:hsl(204, 43%, 90%);
+    font-weight: lighter;
+}
+.cols .col1 button{
+    padding: 1rem;
+    width: 100%;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 6px 5px 1000px hsl(218, 22%, 67%);
+}
+
+.cols .col2{
+    background-color:  hsl(179, 53%, 64%);
+    padding: 3rem;
+    margin-left: -67px;
+    height: 170px;
+    border-bottom-right-radius: 1rem;
+}
+.cols .col2 h1{
+    margin-top: -10px;
+    color:#fff;
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.cols .col2 p{
+    margin-top: 20px;
+    font-family: 'Karla',sans-serif;
+    color:hsl(204, 43%, 90%);
+    opacity: .8;
+    line-height: 1.4em;
+    font-weight: lighter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* footer */
+footer {
+    margin-left: 600px;
+    padding: 2rem;
+}
+footer .foot a{
+    color: rgb(1, 129, 86);
+}
+
+/* responsiveness */
+@media only screen and (max-width:650px){
+    .body{
+        overflow: hidden;
+    }
+  .container{
+    margin: 10px;
+  }
+  .container h1{
+    font-size: 20px;
+  }
+  .container p{
+    font-size: 14px;
+  }
+  .container h2{
+    font-size: 18px;
+  }
+  .cols{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: none;
+  }
+  .col1{
+    margin-top: -70px;
+    margin-left: 12px;
+    width: 195px;
+  }
+   .col1 h1{
+   font-size: 20px;
+   } 
+   .col1 p{
+    font-size: 14px;
+   }
+
+   .col2{
+    margin-top: -4em;
+   }
+   .foot{
+    display: none;
+   }
+
+}
